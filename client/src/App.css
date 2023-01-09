@@ -1,0 +1,117 @@
+*{
+  background-color: #E1EBEE;
+  /* width: 100vw;
+  height: 100vh; */
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+.navbar >h3{
+  margin-left: 10px;
+  font-weight: bolder;
+}
+.navbar > p{
+  margin-left: 10px;
+}
+.number__of__people{
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+.chatbox{
+background-color: #E1EBEE;
+overflow: scroll;
+height: 400px;
+overflow-x: hidden;
+}
+.inputbox{
+  background-color: lightcyan;
+}
+.input{
+  position: absolute;
+  border-radius: 30px;
+  border: 1px solid black;
+  width: 1000px;
+  left: 140px;
+  bottom: 15px;
+  height: 30px;
+}
+.message{
+  background-color: white;
+  border-radius: 10px;
+  width: fit-content;
+  /* max-width: 600px; */
+  padding: 20px;
+  margin-left: 70px;
+  /* margin-top: 150px; */
+  /* bottom: 10px; */
+}
+ul{
+  list-style: none
+}
+.like__button{
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.display__likes{
+  /* padding: 5px; */
+  margin-left: 5px;
+  background-color: white;
+}
+
+.profile{
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  /* background-color: red; */
+  border-radius: 50%;
+}
+.user__message{
+  /* position: absolute; */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  
+}
+.emoji{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 150px;
+  bottom: 22px;
+  cursor: pointer;
+}
+.block{
+display: block;
+position: absolute;
+right: 50px;
+bottom: 60px;
+
+}
+.none{
+display: none;
+}
+
+.submit__button{
+  border: none;
+  padding: 10px;
+  position: absolute;
+  right: 40px;
+  bottom: 15px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+.submit__button:hover{
+  opacity: 0.9;
+}
+
+/* .final__message{
+  display: inline-block;
+  width: fit-content;
+} */
